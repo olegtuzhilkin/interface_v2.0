@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="EFM8LB12F32E-B-QFP32" partId="mcu.8051.efm8.lb1.efm8lb12f32e-b-qfp32" version="4.0.0" contextId="%DEFAULT%">
+  <mode name="DefaultMode">
+    <property object="CIP51_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="CIP51_0" propertyId="cip51.prefetchenginecontrol.flashreadtiming" value="SYSCLK is below 50 MHz"/>
+    <property object="CLOCK_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="CLOCK_0" propertyId="clock.clockselect.clocksourcedivider" value="SYSCLK / 1"/>
+    <property object="CLOCK_0" propertyId="clock.clockselect.selectclocksource" value="External Oscillator"/>
+    <property object="CROSSBAR0" propertyId="xbar0.uart1.data" value="Enabled"/>
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="EXTOSC_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="EXTOSC_0" propertyId="extosc.externaloscillatorcontrol.externalcmosclockfrequency" value="48000000"/>
+    <property object="EXTOSC_0" propertyId="extosc.externaloscillatorcontrol.externaloscillatormode" value="CMOS"/>
+    <property object="P0.0" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P0.1" propertyId="ports.settings.iomode" value="Digital Push-Pull Output"/>
+    <property object="P0.1" propertyId="ports.settings.outputmode" value="Push-pull"/>
+    <property object="P0.3" propertyId="ports.settings.label" value="EXCLK"/>
+    <property object="P0.3" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P0.4" propertyId="ports.settings.label" value="DATA13"/>
+    <property object="P0.5" propertyId="ports.settings.label" value="DATA12"/>
+    <property object="P0.6" propertyId="ports.settings.label" value="DATA11"/>
+    <property object="P0.7" propertyId="ports.settings.label" value="DATA10"/>
+    <property object="P1.0" propertyId="ports.settings.label" value="DATA9"/>
+    <property object="P1.1" propertyId="ports.settings.label" value="DATA8"/>
+    <property object="P1.2" propertyId="ports.settings.label" value="DATA7"/>
+    <property object="P1.3" propertyId="ports.settings.label" value="DATA6"/>
+    <property object="P1.4" propertyId="ports.settings.label" value="DATA5"/>
+    <property object="P1.5" propertyId="ports.settings.label" value="DATA4"/>
+    <property object="P1.6" propertyId="ports.settings.label" value="DATA3"/>
+    <property object="P1.7" propertyId="ports.settings.label" value="DATA2"/>
+    <property object="P2.0" propertyId="ports.settings.label" value="DATA1"/>
+    <property object="P2.1" propertyId="ports.settings.label" value="DATA0"/>
+    <property object="P2.2" propertyId="ports.settings.label" value="ADDR2"/>
+    <property object="P2.3" propertyId="ports.settings.label" value="ADDR1"/>
+    <property object="P2.4" propertyId="ports.settings.label" value="ADDR0"/>
+    <property object="P2.5" propertyId="ports.settings.label" value="SYNC"/>
+    <property object="P3.0" propertyId="ports.settings.iomode" value="Digital Push-Pull Output"/>
+    <property object="P3.0" propertyId="ports.settings.label" value="DERE"/>
+    <property object="P3.0" propertyId="ports.settings.outputmode" value="Push-pull"/>
+    <property object="P3.1" propertyId="ports.settings.label" value="WR"/>
+    <property object="P3.3" propertyId="ports.settings.iomode" value="Digital Push-Pull Output"/>
+    <property object="P3.3" propertyId="ports.settings.label" value="ZERO"/>
+    <property object="P3.3" propertyId="ports.settings.outputmode" value="Push-pull"/>
+    <property object="PBCFG_0" propertyId="pbcfg.settings.enablecrossbar" value="Enabled"/>
+    <property object="UARTE_1" propertyId="ABPeripheral.included" value="true"/>
+    <property object="UARTE_1" propertyId="uarte.baudrategeneratorcontrol.actualbaudrate" value="115384"/>
+    <property object="UARTE_1" propertyId="uarte.baudrategeneratorcontrol.baudrateprescaler" value="Divide by 4"/>
+    <property object="UARTE_1" propertyId="uarte.baudrategeneratorcontrol.baudratereloadhigh" value="255"/>
+    <property object="UARTE_1" propertyId="uarte.baudrategeneratorcontrol.baudratereloadlow" value="204"/>
+    <property object="UARTE_1" propertyId="uarte.baudrategeneratorcontrol.enablebaudrategenerator" value="Enabled"/>
+    <property object="UARTE_1" propertyId="uarte.baudrategeneratorcontrol.expectedbaudrate" value="115200"/>
+    <property object="UARTE_1" propertyId="uarte.serialportcontrol.enablereceive" value="Enabled"/>
+    <property object="WDT_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="WDT_0" propertyId="wdt.watchdogcontrol.wdtenable" value="Disable"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>
